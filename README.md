@@ -63,7 +63,8 @@ The component is defining an API for theming that consists of three classnames: 
 
 ```jsx
 import Button from './Button';
-import successTheme from './SuccessButton.css';
+import successTheme from './
+.css';
 
 export default (props) => (
   <div {...props}>
@@ -108,7 +109,7 @@ import style from './Section.css';
 
 export default () => (
   <section className={style.section}>
-    <SuccessButton theme={style}>Yai!</SuccessButton>
+    <SuccessButton theme={style.button}>Yai!</SuccessButton>
   </section>
 );
 ```
